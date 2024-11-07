@@ -1,0 +1,26 @@
+1-Tipo, Classe e ID: Seletores básicos que escolhem elementos pelo nome, classe ou ID.
+Universais e Atributos: Selecionam todos os elementos ou aqueles com atributos específicos.
+Hierárquicos: Selecionam elementos com base na relação entre eles (descendentes, filhos ou irmãos).
+Pseudo-classes e Pseudo-elementos: Aplicam estilo baseado no estado ou em partes específicas de elementos.
+
+2- ID > classe, pseudo-classe, atributo > tipo e pseudo-elemento > universal e combinados.
+
+3- O Box Model no CSS é um método que define como os elementos HTML são renderizados na página, controlando o
+   espaço e o layout de cada um, sendo tratado como uma caixa retangular com propriedades que determinam o
+   espaço ao seu redor.
+   Suas propriedades são:
+   Content: A área onde o conteúdo real do elemento é exibido. Este é o espaço interno que contém o conteúdo 
+            visível do elemento.
+   Padding: O espaço entre o conteúdo do elemento e sua borda. Expande a área do elemento, empurrando a borda
+            para fora, mas mantendo a cor de fundo do elemento.
+   Border:  A borda é a linha ao redor do padding. Pode ter várias larguras, estilos e cores.
+   Margin: O espaço externo ao redor do elemento, que o separa de outros elementos. É transparente e não afeta 
+           a cor de fundo do elemento.
+           
+4-todos são unidades de medidas usadas pelo CSS:
+  px: chamado de Pixel, apresenta medida fixa e representa um único ponto em uma tela.
+  pt: Ponto, é uma unidade usada em impressão, onde 1 ponto é igual a 1/72 de uma polegada.
+  em: é uma unidade relativa ao tamanho da fonte do elemento pai. Por exemplo, se a fonte do elemento pai for
+      16px, então 1em será igual a 16px.
+  rem: o Root em, é uma unidade relativa ao tamanho da fonte do elemento raiz, geralmente definida pelo 
+       navegador como 16px por padrão.
