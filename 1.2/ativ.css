@@ -1,0 +1,15 @@
+ul {
+    list-style: none;
+    padding: 0;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+li {
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
+    color: #fff;
+    padding: .5em;
+    margin: .5em;
+}
